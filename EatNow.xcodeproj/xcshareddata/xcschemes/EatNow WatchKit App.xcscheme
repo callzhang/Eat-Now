@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0620"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "09432CBF1ACCC5E700B989FF"
+               BuildableName = "EatNow WatchKit App.app"
+               BlueprintName = "EatNow WatchKit App"
+               ReferencedContainer = "container:EatNow.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "09432CAD1ACCC5E700B989FF"
+               BuildableName = "EatNow WatchKit Extension.appex"
+               BlueprintName = "EatNow WatchKit Extension"
+               ReferencedContainer = "container:EatNow.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DA5B73E418F233EF00BB5F8E"
+               BuildableName = "EatNow.app"
+               BlueprintName = "EatNow"
+               ReferencedContainer = "container:EatNow.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "09432CBF1ACCC5E700B989FF"
+            BuildableName = "EatNow WatchKit App.app"
+            BlueprintName = "EatNow WatchKit App"
+            ReferencedContainer = "container:EatNow.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES"
+      notificationPayloadFile = "EatNow WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/EatNow">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "09432CBF1ACCC5E700B989FF"
+            BuildableName = "EatNow WatchKit App.app"
+            BlueprintName = "EatNow WatchKit App"
+            ReferencedContainer = "container:EatNow.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "09432CBF1ACCC5E700B989FF"
+            BuildableName = "EatNow WatchKit App.app"
+            BlueprintName = "EatNow WatchKit App"
+            ReferencedContainer = "container:EatNow.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <LocationScenarioReference
+         identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+         referenceType = "1">
+      </LocationScenarioReference>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/EatNow">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "09432CBF1ACCC5E700B989FF"
+            BuildableName = "EatNow WatchKit App.app"
+            BlueprintName = "EatNow WatchKit App"
+            ReferencedContainer = "container:EatNow.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "09432CBF1ACCC5E700B989FF"
+            BuildableName = "EatNow WatchKit App.app"
+            BlueprintName = "EatNow WatchKit App"
+            ReferencedContainer = "container:EatNow.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

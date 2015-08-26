@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <imageView alignment="center" verticalAlignment="center" image="eat-now-apple-watch-loading-indicator-1" animationDuration="2" id="bSj-Fu-p8J"/>
+                    </items>
+                    <variation key="device=watch42mm">
+                        <mask key="items">
+                            <include reference="bSj-Fu-p8J"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="loadingImageView" destination="bSj-Fu-p8J" id="Csv-Lu-yee"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="80" y="433"/>
+        </scene>
+        <!--Close-->
+        <scene sceneID="HON-0N-6qt">
+            <objects>
+                <controller title="Close" id="Fsi-4x-S9K" customClass="ResturantDetailInterfaceController">
+                    <items>
+                        <group width="1" widthAdjustment="-4" height="96" alignment="center" contentMode="scaleAspectFill" layout="vertical" id="k4n-b9-Lyk" userLabel="background Image">
+                            <items>
+                                <group width="1" height="96" alignment="left" backgroundImage="eat-now-apple-watch-card-details-view-venue-image-overlay" contentMode="scaleAspectFill" id="R9Y-dt-TdC" userLabel="overlay">
+                                    <items>
+                                        <group width="1" widthAdjustment="-6" alignment="center" layout="vertical" id="o7s-0j-LTs">
+                                            <items>
+                                                <group width="1" height="20" alignment="left" id="7Ju-dN-nGL">
+                                                    <items>
+                                                        <label width="90" alignment="left" text="Restaurant" id="kY3-uj-1UQ">
+                                                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                                            <variation key="device=watch38mm" width="93"/>
+                                                            <variation key="device=watch42mm" width="110"/>
+                                                        </label>
+                                                        <label width="32" alignment="right" text="9.6" textAlignment="right" id="Enf-YN-ARW">
+                                                            <color key="textColor" red="0.0" green="0.82017356157302856" blue="0.36374658346176147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                                            <variation key="device=watch38mm" width="28"/>
+                                                        </label>
+                                                    </items>
+                                                    <variation key="device=watch42mm" height="20"/>
+                                                </group>
+                                                <label width="136" height="19" alignment="left" text="Cuisine/Category" id="U9f-Xo-Qgl">
+                                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                                </label>
+                                                <label width="136" height="19" alignment="left" text="$$" id="0wN-qc-5Li">
+                                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                                </label>
+                                            </items>
+                                            <variation key="device=watch42mm">
+                                                <mask key="items">
+                                                    <include reference="7Ju-dN-nGL"/>
+                                                    <include reference="U9f-Xo-Qgl"/>
+                                                    <include reference="0wN-qc-5Li"/>
+                                                </mask>
+                                            </variation>
+                                        </group>
+                                    </items>
+                                    <variation key="device=watch42mm">
+                                        <mask key="items">
+                                            <include reference="o7s-0j-LTs"/>
+                                        </mask>
+                                    </variation>
+                                </group>
+                            </items>
+                            <color key="backgroundColor" red="0.14115631580352783" green="0.14118805527687073" blue="0.14115431904792786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="R9Y-dt-TdC"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" widthAdjustment="-4" alignment="center" id="z9a-9r-Vbn">
+                            <items>
+                                <label width="1" widthAdjustment="-8" alignment="center" verticalAlignment="center" text="14 W 19th St (btwn 5th &amp; 6th) Ave) New York, NY 10011" textAlignment="left" numberOfLines="0" id="nxc-F1-pHE">
+                                    <color key="textColor" red="0.78422760963439941" green="0.78436332941055298" blue="0.78421902656555176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </label>
+                            </items>
+                            <color key="backgroundColor" red="0.14115631580352783" green="0.14118805527687073" blue="0.14115431904792786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </group>
+                        <map width="1" widthAdjustment="-4" height="90" alignment="center" id="1x4-04-3oB"/>
+                        <group width="1" widthAdjustment="-4" alignment="center" id="VyM-RR-BAh">
+                            <items>
+                                <table alignment="left" id="T2m-QD-bXh"/>
+                            </items>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="T2m-QD-bXh"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" widthAdjustment="-4" alignment="center" id="zYn-VR-kCa">
+                            <items>
+                                <button alignment="left" id="Qlf-rV-Zuq">
+                                    <group key="contentGroup" width="131" height="40" alignment="left" id="NwU-JI-ARa">
+                                        <items>
+                                            <separator height="1" alignment="left" id="xMs-dp-xtU">
+                                                <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </separator>
+                                            <separator height="1" alignment="left" id="3xB-VR-R3b">
+                                                <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </separator>
+                                            <separator height="1" alignment="left" id="3Zt-hd-6OJ">
+                                                <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </separator>
+                                            <separator height="1" alignment="left" id="1Qy-9a-hgV">
+                                                <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </separator>
+                                            <separator height="1" alignment="left" id="jMv-lB-sgq">
+                                                <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </separator>
+                                            <imageView width="13" height="18" alignment="left" verticalAlignment="center" image="eat-now-apple-watch-card-details-view-walk-icon" contentMode="right" id="OXl-MV-Z4K">
+                                                <variation key="device=watch38mm" width="21"/>
+                                            </imageView>
+                                            <label width="100" alignment="left" verticalAlignment="center" text=" I'm going!" textAlignment="left" id="DhZ-Wk-EpN"/>
+                                        </items>
+                                        <variation key="device=watch42mm">
+                                            <mask key="items">
+                                                <include reference="3xB-VR-R3b"/>
+                                                <include reference="3Zt-hd-6OJ"/>
+                                                <include reference="1Qy-9a-hgV"/>
+                                                <include reference="jMv-lB-sgq"/>
+                                            </mask>
+                                        </variation>
+                                    </group>
+                                    <connections>
+                                        <segue destination="ehN-a0-72f" kind="modal" id="YLP-gd-CYs"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <color key="backgroundColor" red="0.0" green="0.65683639049530029" blue="0.96857458353042603" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="address" destination="nxc-F1-pHE" id="TCA-Xj-350"/>
+                        <outlet property="detailTable" destination="T2m-QD-bXh" id="LfU-82-ulm"/>
+                        <outlet property="ratingLabel" destination="Enf-YN-ARW" id="SeQ-hH-OFa"/>
+                        <outlet property="restaurantCategory" destination="U9f-Xo-Qgl" id="dYT-Lv-Qr6"/>
+                        <outlet property="restaurantNameGroup" destination="k4n-b9-Lyk" id="PkI-t2-ysn"/>
+                        <outlet property="restaurantPrice" destination="0wN-qc-5Li" id="ESa-z9-4Ad"/>
+                        <outlet property="resturantMap" destination="1x4-04-3oB" id="UAg-Y1-mMX"/>
+                        <outlet property="resturantName" destination="kY3-uj-1UQ" id="75k-ny-GKT"/>
+                        <outlet property="resturantNameIMGoing" destination="Qlf-rV-Zuq" id="rff-9K-SaK"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="554" y="190.5"/>
+        </scene>
+        <!--Close-->
+        <scene sceneID="0ge-SG-2LJ">
+            <objects>
+                <controller title="Close" id="ehN-a0-72f" customClass="NiceChoiceInterfaceController">
+                    <items>
+                        <imageView alignment="center" image="eat-now-apple-watch-card-details-view-i'm-going-button-pressed-thumbsup-icon" id="96i-Mx-J3u"/>
+                        <label alignment="center" text="Nice Choice!" id="qLa-XX-rNh"/>
+                        <label alignment="center" text="We learn from your choices and make better suggestions over time." textAlignment="center" numberOfLines="0" id="XBA-LN-eTR">
+                            <color key="textColor" red="0.74501591920852661" green="0.74514532089233398" blue="0.74500775337219238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="863" y="187.5"/>
+        </scene>
+        <!--ResturantInterfaceController-->
+        <scene sceneID="GS7-MF-kae">
+            <objects>
+                <controller identifier="ResturantInterfaceController" id="GJD-oO-DHW" customClass="ResturantInterfaceController">
+                    <items>
+                        <button alignment="center" id="lUy-N1-VAz">
+                            <group key="contentGroup" width="1" widthAdjustment="-8" height="150" alignment="left" contentMode="scaleAspectFill" animationDuration="5" layout="vertical" radius="8" id="K2G-FG-IGZ">
+                                <items>
+                                    <group width="1" height="150" alignment="left" backgroundImage="card-deck-view-venue-image-overlay" id="ibS-iq-bNh">
+                                        <items>
+                                            <group width="1" widthAdjustment="-6" alignment="center" layout="vertical" id="BHn-c7-88V">
+                                                <items>
+                                                    <group width="1" alignment="left" id="AKE-gi-TDM">
+                                                        <items>
+                                                            <label width="85" height="19" alignment="left" text="Restaurant Name" id="n4k-MZ-3Jv">
+                                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                                                <variation key="device=watch38mm" width="87"/>
+                                                                <variation key="device=watch42mm" width="105"/>
+                                                            </label>
+                                                            <label width="32" alignment="right" text="9.6" textAlignment="right" id="XHJ-XY-Tqh">
+                                                                <color key="textColor" red="0.0" green="0.82017356159999999" blue="0.3637465835" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                                                <variation key="device=watch38mm" width="28"/>
+                                                            </label>
+                                                        </items>
+                                                        <variation key="device=watch38mm">
+                                                            <mask key="items">
+                                                                <include reference="n4k-MZ-3Jv"/>
+                                                                <include reference="XHJ-XY-Tqh"/>
+                                                            </mask>
+                                                        </variation>
+                                                    </group>
+                                                    <label width="136" height="19" alignment="left" text="Cuisine/Category" id="BZz-GR-59C">
+                                                        <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                                    </label>
+                                                    <label width="136" height="19" alignment="left" text="$$" id="Dim-Vf-Sfr">
+                                                        <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                                    </label>
+                                                    <separator alignment="left" id="OkZ-3D-INg">
+                                                        <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </separator>
+                                                    <separator alignment="left" id="jSc-qT-0DM">
+                                                        <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </separator>
+                                                    <separator alignment="left" id="vOZ-Ms-esB">
+                                                        <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </separator>
+                                                    <separator alignment="left" id="Tg4-jp-l9j">
+                                                        <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </separator>
+                                                    <separator alignment="left" id="YdP-S8-ejz">
+                                                        <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </separator>
+                                                    <separator alignment="left" id="40t-q7-aWF">
+                                                        <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </separator>
+                                                    <separator alignment="left" id="zby-Gv-eRn">
+                                                        <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </separator>
+                                                    <label width="136" height="19" alignment="left" text="Open till 10:30 pm" id="HPu-GF-hgf">
+                                                        <fontDescription key="font" type="system" weight="thin" pointSize="12"/>
+                                                    </label>
+                                                    <label height="19" alignment="left" text="calcuating distance.." id="k7V-9A-6Ik">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <variation key="device=watch38mm">
+                                                    <mask key="items">
+                                                        <include reference="AKE-gi-TDM"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="device=watch42mm">
+                                                    <mask key="items">
+                                                        <include reference="BZz-GR-59C"/>
+                                                        <include reference="Dim-Vf-Sfr"/>
+                                                        <include reference="OkZ-3D-INg"/>
+                                                        <include reference="jSc-qT-0DM"/>
+                                                        <include reference="vOZ-Ms-esB"/>
+                                                        <include reference="Tg4-jp-l9j"/>
+                                                        <include reference="YdP-S8-ejz"/>
+                                                        <include reference="40t-q7-aWF"/>
+                                                        <include reference="zby-Gv-eRn"/>
+                                                        <include reference="HPu-GF-hgf"/>
+                                                        <include reference="k7V-9A-6Ik"/>
+                                                    </mask>
+                                                </variation>
+                                            </group>
+                                        </items>
+                                        <variation key="device=watch42mm">
+                                            <mask key="items">
+                                                <include reference="BHn-c7-88V"/>
+                                            </mask>
+                                        </variation>
+                                    </group>
+                                </items>
+                                <variation key="device=watch42mm">
+                                    <mask key="items">
+                                        <include reference="ibS-iq-bNh"/>
+                                    </mask>
+                                </variation>
+                            </group>
+                            <connections>
+                                <action selector="onButton" destination="GJD-oO-DHW" id="7h6-nS-cPm"/>
+                                <segue destination="Fsi-4x-S9K" kind="modal" id="Rqv-Ci-Kdh"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="actionButton" destination="lUy-N1-VAz" id="L3d-Td-RH8"/>
+                        <outlet property="actionButtonGroup" destination="K2G-FG-IGZ" id="tcH-YW-WzR"/>
+                        <outlet property="openTil" destination="HPu-GF-hgf" id="Jag-FP-aJ2"/>
+                        <outlet property="ratingLabel" destination="XHJ-XY-Tqh" id="20j-IN-pxO"/>
+                        <outlet property="restaurantCategory" destination="BZz-GR-59C" id="vey-XP-3J1"/>
+                        <outlet property="restaurantDistance" destination="k7V-9A-6Ik" id="BYz-tj-vcu"/>
+                        <outlet property="restaurantName" destination="n4k-MZ-3Jv" id="wcW-5Z-2Zp"/>
+                        <outlet property="restaurantPrice" destination="Dim-Vf-Sfr" id="Ndu-vt-kCh"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="216.20512820512823" y="186.12820512820514"/>
+        </scene>
+    </scenes>
+</document>

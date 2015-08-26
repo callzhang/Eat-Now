@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TMAlertController">
+            <connections>
+                <outlet property="backgroundContainerView" destination="xsr-Hf-8Lb" id="xqZ-uO-Ibe"/>
+                <outlet property="iconImageView" destination="5q7-HV-u6n" id="n0b-in-1Ld"/>
+                <outlet property="messageTextLabel" destination="uVM-Yk-pQi" id="a1P-gz-PS7"/>
+                <outlet property="titleTextLabel" destination="B56-gx-ElM" id="jJm-Aa-NTW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="visualEffectBackgroundView" destination="vra-LD-y96" id="cPh-ky-iV1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="332"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xsr-Hf-8Lb" userLabel="backgroundView">
+                    <rect key="frame" x="0.0" y="0.0" width="343" height="332"/>
+                    <subviews>
+                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vra-LD-y96">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="332"/>
+                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ajf-EU-fQC">
+                                <rect key="frame" x="0.0" y="0.0" width="343" height="332"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                            <blurEffect style="dark"/>
+                        </visualEffectView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="vra-LD-y96" firstAttribute="leading" secondItem="xsr-Hf-8Lb" secondAttribute="leading" id="0iv-Ki-ldy"/>
+                        <constraint firstItem="vra-LD-y96" firstAttribute="top" secondItem="xsr-Hf-8Lb" secondAttribute="top" id="h5i-ch-3N2"/>
+                        <constraint firstAttribute="bottom" secondItem="vra-LD-y96" secondAttribute="bottom" id="oej-Sv-WvB"/>
+                        <constraint firstAttribute="trailing" secondItem="vra-LD-y96" secondAttribute="trailing" id="udk-fm-sRp"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eat-now-alert-question-mark-icon" translatesAutoresizingMaskIntoConstraints="NO" id="5q7-HV-u6n">
+                    <rect key="frame" x="152" y="20" width="40" height="40"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B56-gx-ElM">
+                    <rect key="frame" x="15" y="68" width="313" height="33"/>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="24"/>
+                    <color key="textColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVM-Yk-pQi">
+                    <rect key="frame" x="15" y="111" width="313" height="28"/>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="20"/>
+                    <color key="textColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="B56-gx-ElM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="3Dn-dQ-v0S"/>
+                <constraint firstItem="uVM-Yk-pQi" firstAttribute="top" secondItem="B56-gx-ElM" secondAttribute="bottom" constant="10" id="JJH-y8-C6R"/>
+                <constraint firstItem="uVM-Yk-pQi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="L6G-qt-b6O"/>
+                <constraint firstItem="5q7-HV-u6n" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="ORW-jV-cvg"/>
+                <constraint firstAttribute="trailing" secondItem="B56-gx-ElM" secondAttribute="trailing" constant="15" id="ROd-5G-hhF"/>
+                <constraint firstAttribute="centerX" secondItem="5q7-HV-u6n" secondAttribute="centerX" id="ZJc-04-mLo"/>
+                <constraint firstItem="xsr-Hf-8Lb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aqY-mW-gxx"/>
+                <constraint firstAttribute="bottom" secondItem="xsr-Hf-8Lb" secondAttribute="bottom" id="gF7-CU-arf"/>
+                <constraint firstAttribute="trailing" secondItem="uVM-Yk-pQi" secondAttribute="trailing" constant="15" id="hNw-L3-x1K"/>
+                <constraint firstItem="B56-gx-ElM" firstAttribute="top" secondItem="5q7-HV-u6n" secondAttribute="bottom" constant="8" id="hdW-8V-an6"/>
+                <constraint firstAttribute="trailing" secondItem="xsr-Hf-8Lb" secondAttribute="trailing" id="uOo-g9-MgR"/>
+                <constraint firstItem="xsr-Hf-8Lb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="waw-Ia-hO9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="215.5" y="386"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="eat-now-alert-question-mark-icon" width="40" height="40"/>
+    </resources>
+</document>

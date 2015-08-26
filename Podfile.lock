@@ -1,0 +1,171 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AMRatingControl (1.3.0)
+  - apptentive-ios (1.7.3):
+    - apptentive-ios/arc-files (= 1.7.3)
+  - apptentive-ios/arc-files (1.7.3)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Bolts (1.2.0):
+    - Bolts/AppLinks (= 1.2.0)
+    - Bolts/Tasks (= 1.2.0)
+  - Bolts/AppLinks (1.2.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.2.0)
+  - CocoaLumberjack (2.0.0):
+    - CocoaLumberjack/Default (= 2.0.0)
+    - CocoaLumberjack/Extensions (= 2.0.0)
+  - CocoaLumberjack/Core (2.0.0)
+  - CocoaLumberjack/Default (2.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0):
+    - CocoaLumberjack/Default
+  - GPUImage (0.1.7)
+  - hpple (0.2.0)
+  - INTULocationManager (3.0.1)
+  - JCTagListView (0.0.3)
+  - JGProgressHUD (1.2.6)
+  - JSONModel (1.0.2)
+  - KVOController (1.0.3)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - Mixpanel (2.8.1):
+    - Mixpanel/Mixpanel (= 2.8.1)
+  - Mixpanel/Mixpanel (2.8.1):
+    - Mixpanel/MPCategoryHelpers
+  - Mixpanel/MPCategoryHelpers (2.8.1)
+  - MTDates (1.0.2)
+  - Parse (1.7.5.3):
+    - Bolts/Tasks (>= 1.2.0)
+  - PureLayout (2.0.6)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - TOWebViewController (2.0.17)
+  - Tweaks (2.0.0)
+  - UITableView-NXEmptyView (0.1.7)
+  - WeixinActivity (1.2.0):
+    - WeixinActivity/Weixin (= 1.2.0)
+  - WeixinActivity/Weixin (1.2.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AMRatingControl (~> 1.3)
+  - apptentive-ios (~> 1.7)
+  - BlocksKit (~> 2.2)
+  - Bolts (~> 1.2.0)
+  - CocoaLumberjack (~> 2.0)
+  - GPUImage
+  - hpple (~> 0.2)
+  - INTULocationManager (~> 3.0.1)
+  - JCTagListView
+  - JGProgressHUD
+  - JSONModel (~> 1.0.2)
+  - KVOController (~> 1.0.3)
+  - libextobjc
+  - Mixpanel (~> 2.8)
+  - MTDates (~> 1.0)
+  - Parse (~> 1.7.5.3)
+  - PureLayout (~> 2.0.6)
+  - ReactiveCocoa (= 2.5)
+  - TOWebViewController (~> 2.0.14)
+  - Tweaks (~> 2.0.0)
+  - UITableView-NXEmptyView (~> 0.1.7)
+  - WeixinActivity (~> 1.2.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AMRatingControl: f209fd394188ba48a818f2df091db438123db362
+  apptentive-ios: be0b8dbc17b443eb624b3a015017f521b096f003
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  CocoaLumberjack: a6f77d987d65dc7ba86b0f84db7d0b9084f77bcb
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
+  INTULocationManager: c27483113e1bbc5952ead6417f9b39824a240ebb
+  JCTagListView: e99ce8bc18e5fcacf5101c5763e6c26d49cb36b4
+  JGProgressHUD: 151e8fcfdaa9ee1fb8370837a5ac1222efd3f2d3
+  JSONModel: 6ffcb4ffa3659c9e9a2e5d45d6c7705bab187c03
+  KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  Mixpanel: 93c4825025e6380ced273ed7178496282e385077
+  MTDates: aa8006ac046c3fc4f2bb9df95603e9b5bdac9467
+  Parse: 373adbb1ad2e34d383542c3b28f678c49ebe4881
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  TOWebViewController: aada427e7eba199bbaee77ddee3243c8172f4053
+  Tweaks: 524fa47636cce3bf3a4d9156e980f10ae9480e81
+  UITableView-NXEmptyView: 0bc404cfd9c201af518a63240ac4ac4dad2c69c2
+  WeixinActivity: 4c5d4be4dff83d90376f3d5ba2fa6ba410e88b9e
+
+COCOAPODS: 0.38.2

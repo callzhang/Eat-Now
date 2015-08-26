@@ -1,0 +1,1 @@
+../../../AMRatingControl/Classes/AMRatingControl.h

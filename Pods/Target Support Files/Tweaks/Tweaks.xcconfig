@@ -1,0 +1,1 @@
+TWEAKS_OTHER_LDFLAGS = -framework "MessageUI"

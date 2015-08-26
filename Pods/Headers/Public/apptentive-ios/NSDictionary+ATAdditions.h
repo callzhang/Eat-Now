@@ -1,0 +1,1 @@
+../../../apptentive-ios/ApptentiveConnect/source/Misc/NSDictionary+ATAdditions.h

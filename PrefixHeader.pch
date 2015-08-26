@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  EatNow
+//
+//  Created by Lei Zhang on 11/26/14.
+//  Copyright (c) 2014 modocache. All rights reserved.
+//
+
+#ifndef EatNow_PrefixHeader_pch
+#define EatNow_PrefixHeader_pch
+
+#import <Availability.h>
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#endif

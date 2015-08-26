@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "eat-now-default-background.jpg"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "eat-now-default-background@2x.jpg"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "eat-now-default-background@3x.jpg"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

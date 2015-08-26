@@ -1,0 +1,1 @@
+../../../apptentive-ios/ApptentiveConnect/source/Model/ATMessageSender.h

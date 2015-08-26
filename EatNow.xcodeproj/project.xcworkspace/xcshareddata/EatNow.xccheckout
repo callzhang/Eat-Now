@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BA8D54D8-7335-4FC4-AC81-8019B5119E89</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EatNow</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>92562507658AF13F320DEFAE769B2CD3194A84BC</key>
+		<string>https://github.com/callzhang/LikedOrNope.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EatNow.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>92562507658AF13F320DEFAE769B2CD3194A84BC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/callzhang/LikedOrNope.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>92562507658AF13F320DEFAE769B2CD3194A84BC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>92562507658AF13F320DEFAE769B2CD3194A84BC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LikedOrNope</string>
+		</dict>
+	</array>
+</dict>
+</plist>
